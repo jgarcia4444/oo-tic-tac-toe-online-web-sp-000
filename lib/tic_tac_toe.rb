@@ -116,7 +116,7 @@ class TicTacToe
     end
   end
 
-  def play 
+  def play
   end
 
 end
