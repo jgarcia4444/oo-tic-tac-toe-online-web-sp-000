@@ -80,7 +80,7 @@ class TicTacToe
 
       if @board[win_idx1] == "X" && @board[win_idx2] == "X" && @board[win_idx3] == "X"
         return true
-      
+
     end
 
   end
