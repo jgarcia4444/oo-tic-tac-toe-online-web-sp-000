@@ -82,6 +82,7 @@ class TicTacToe
         return true
       elsif @board[win_idx1] == "O" && @board[win_idx2] == "O" && @board[win_idx3] == "O"
         return true
+      end
     end
 
   end
