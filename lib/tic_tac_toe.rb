@@ -112,6 +112,7 @@ class TicTacToe
       win_combo = won?
     else
       return nil
+    end
   end
 
 end
