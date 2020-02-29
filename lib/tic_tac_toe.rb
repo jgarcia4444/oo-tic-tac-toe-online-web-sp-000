@@ -122,6 +122,8 @@ class TicTacToe
       turn
     end
 
+    Congratulations #{winner}
+
 
   end
 
