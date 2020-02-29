@@ -71,15 +71,15 @@ class TicTacToe
   end
 
   def won?
-    
+
     WIN_COMBINATIONS.each do |win_combo|
-      
+
       win_idx1 = win_combo[0]
       win_idx2 = win_combo[1]
       win_idx3 = win_combo[2]
-      
+
     end
-    
+
   end
 
 end
