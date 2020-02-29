@@ -119,6 +119,7 @@ class TicTacToe
   def play
     while !over?
       puts "What move would you like to make: (1-9)"
+      turn
     end
 
 
