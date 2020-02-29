@@ -117,6 +117,9 @@ class TicTacToe
   end
 
   def play
+
+    puts "What move would you like to make: (1-9)"
+
   end
 
 end
