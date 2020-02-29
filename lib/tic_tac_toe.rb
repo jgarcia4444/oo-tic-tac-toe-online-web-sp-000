@@ -79,7 +79,7 @@ class TicTacToe
       win_idx3 = win_combo[2]
 
       if @board[win_idx1] == "X" && @board[win_idx2] == "X" && @board[win_idx3] == "X"
-        return true
+        return win_combo
       elsif @board[win_idx1] == "O" && @board[win_idx2] == "O" && @board[win_idx3] == "O"
         return true
       end
