@@ -78,6 +78,9 @@ class TicTacToe
       win_idx2 = win_combo[1]
       win_idx3 = win_combo[2]
 
+      if @board[win_idx1] == "X" && @board[win_idx2] == "X" && @board[win_idx3] == "X"
+        return true
+      
     end
 
   end
