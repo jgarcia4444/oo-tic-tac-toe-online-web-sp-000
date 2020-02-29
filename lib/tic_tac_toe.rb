@@ -60,6 +60,9 @@ class TicTacToe
 
   def turn
     user_input = gets.chomp
+    postion = input_to_index(user_input)
+    player_char = current_player
+    
   end
 
 end
