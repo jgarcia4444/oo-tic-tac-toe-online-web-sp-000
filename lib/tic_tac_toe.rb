@@ -122,7 +122,8 @@ class TicTacToe
       turn
     end
 
-    puts "Congratulations #{winner}"
+    if won?
+      puts "Congratulations #{winner}"
 
 
   end
