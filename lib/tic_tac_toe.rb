@@ -122,7 +122,7 @@ class TicTacToe
       turn
     end
 
-    Congratulations #{winner}
+    puts "Congratulations #{winner}""
 
 
   end
