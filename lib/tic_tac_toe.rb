@@ -31,4 +31,8 @@ class TicTacToe
     @board[position] = player_char
   end
 
+  def position_taken(position)
+    @board[position] == "X" || @board[position] == "O"
+  end
+
 end
